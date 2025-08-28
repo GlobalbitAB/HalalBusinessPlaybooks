@@ -1,19 +1,20 @@
-# <Playbook Name>
+# Halal Business Playbooks
 
-## Outcome (money + trust in 7–14 days)
-- Example: 50 free badge signups → 10% convert to $49 kit
+Practical, halal-aligned playbooks for launching trust-based micro-businesses in 24–48 hours.  
+Part of the **GlobalbitAB** ecosystem (Sweden) and FlowMint Ltd (UK).
 
-## Assets to ship
-- Lead magnet PDF
-- MailerLite landing page + automation
-- WhatsApp onboarding script + QR code
-- Offer page (`offer.md`)
+---
 
-## Steps
-1. Define your niche & promise
-2. Build freebie (verification badge / checklist)
-3. Setup landing + QR code
-4. Deliver → upsell Starter Kit
-5. Scale with affiliates
+## 🚀 Current Playbooks
+- **Halal Verify** → Free badge + Starter Kit
+- More playbooks coming soon...
+
+---
+
 ## 🌐 Live Demo
 Halal Verify badge page → [View here](https://globalbitab.github.io/HalalBusinessPlaybooks/)
+
+---
+
+## 📬 Contact
+Email: fintekafrica@gmail.com
