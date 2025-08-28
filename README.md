@@ -15,3 +15,5 @@
 3. Setup landing + QR code
 4. Deliver → upsell Starter Kit
 5. Scale with affiliates
+## 🌐 Live Demo
+Halal Verify badge page → [View here](https://globalbitab.github.io/HalalBusinessPlaybooks/)
