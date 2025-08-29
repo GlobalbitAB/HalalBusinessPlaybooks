@@ -18,3 +18,9 @@ Halal Verify badge page → [View here](https://globalbitab.github.io/HalalBusin
 
 ## 📬 Contact
 Email: fintekafrica@gmail.com
+### Quick Links
+- Live site: https://globalbitab.github.io/HalalBusinessPlaybooks/
+- Starter Kit ($29): https://globalbitab.github.io/HalalBusinessPlaybooks/starter-kit.html
+- DFY Setup ($99): https://globalbitab.github.io/HalalBusinessPlaybooks/dfy.html
+- WhatsApp: https://wa.me/46723326333?text=Salaam%20-%20I%20want%20the%20Halal%20Verify%20badge
+
