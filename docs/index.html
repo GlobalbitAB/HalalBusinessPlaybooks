@@ -4,99 +4,55 @@
   <meta charset="utf-8">
   <title>Halal Business Playbooks — Coming Soon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Keep this so Google/Bing don't index while we build -->
   <meta name="robots" content="noindex, nofollow">
-
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-  <style>
-    /* Islamic-inspired palette (Emerald + Gold) */
-    :root{
-      --brand:#0F6D44;   /* Emerald */
-      --accent:#D4AF37;  /* Gold */
-      --dark:#0B1F1A;    /* Deep green-black (text) */
-      --light:#F6FBF8;   /* Mint-ivory background */
-      --white:#FFFFFF;
-    }
-
-    /* Base */
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0}
-    body{
-      background:var(--light);
-      color:var(--dark);
-      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-    }
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-
-    /* Layout */
-    .wrap{max-width:920px;margin:0 auto;padding:40px 16px}
-    .card{
-      background:var(--white);
-      border-radius:16px;
-      padding:28px;
-      box-shadow:0 6px 24px rgba(0,0,0,.06);
-      max-width:820px;
-      margin:40px auto;
-    }
-
-    /* Type & components */
-    h1{
-      font-family:Poppins,Inter,Arial,sans-serif;
-      font-weight:700;
-      font-size:28px;
-      margin:0 0 10px;
-      color:var(--brand);
-      letter-spacing:.2px;
-    }
-    p{line-height:1.65;margin:8px 0 14px}
-    .lead{font-size:1.05rem}
-    .badge{
-      display:inline-block;
-      padding:10px 14px;
-      border-radius:10px;
-      background:rgba(15,109,68,.08); /* soft emerald tint */
-      margin-top:10px;
-    }
-    .footer{
-      text-align:center;
-      font-size:.92rem;
-      opacity:.85;
-      margin:32px 0 18px;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/theme.css">
 </head>
 <body>
-  <div class="wrap">
-    <!-- SINGLE, CLEAN HERO -->
-    <div class="card">
-      <h1>Halal Business Playbooks</h1>
+  <header class="header container">
+    <div class="logo">Halal Business Playbooks</div>
+    <nav class="nav">
+      <a href="sectors/energy/">Energy</a>
+      <a href="sectors/finance/">Finance</a>
+      <a href="sectors/remittance/">Remittance</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Elegant Coming-Soon hero -->
+    <section class="hero">
+      <h1>Build trust, win faster.</h1>
       <p class="lead">
-        We’re building a simple trust layer — <strong>badge + playbooks</strong> —
-        that any small business can use to prove reliability and win customers faster.
+        We’re crafting a simple trust layer — <strong>badge + playbooks</strong> — that any business can use
+        to prove reliability and accelerate deals.
       </p>
+      <span class="badge">Status: Private preview • Launching soon</span>
 
-      <div class="badge">Status: Private preview • Launching soon</div>
+      <div class="actions">
+        <a class="btn" target="_blank" rel="noopener"
+           href="https://mail.google.com/mail/?view=cm&fs=1&to=fintekafrica@gmail.com&su=Early%20Access%20Request%20%5BHV%5D&body=Salaam%2C%0A%0AI%27d%20like%20early%20access.%0ABusiness%20name%3A%20_____%0AWebsite%2Fsocial%3A%20_____%0ACountry%3A%20_____%0AWhatsApp%3A%20_____">
+          Request early access
+        </a>
+        <a class="btn-ghost" target="_blank" rel="noopener"
+           href="https://wa.me/46723326333?text=Salaam%20-%20Early%20access%20for%20Halal%20Business%20Playbooks.%0ABusiness%20name%3A%20_____%0AWebsite%2Fsocial%3A%20_____%0A">
+          Chat on WhatsApp
+        </a>
+      </div>
 
-      <p style="margin:16px 0 0">
-        <small>
-          Want early access? Email
-          <a href="mailto:fintekafrica@gmail.com">fintekafrica@gmail.com</a>
-          or WhatsApp
-          <a href="https://wa.me/46723326333" target="_blank" rel="noopener">+46&nbsp;723&nbsp;326&nbsp;333</a>.
-        </small>
+      <p class="small muted" style="margin-top:14px">
+        Prefer email? <a href="mailto:fintekafrica@gmail.com">fintekafrica@gmail.com</a>
       </p>
-    </div>
+    </section>
 
-    <div class="footer">
-      © <span id="y"></span> GlobalbitAB. All rights reserved.
-    </div>
-  </div>
+    <!-- Optional: three small info cards (kept quiet/neutral) -->
+    <section class="grid three" style="margin-top:22px">
+      <div class="card"><h3>What</h3><p>Verification badge + operational checklists + message scripts.</p></div>
+      <div class="card"><h3>Why</h3><p>Signal reliability early, reduce buyer friction, close faster.</p></div>
+      <div class="card"><h3>How</h3><p>Private preview now; sector pages rolling out (energy, finance, remittance).</p></div>
+    </section>
+  </main>
 
+  <footer class="footer">© <span id="y"></span> GlobalbitAB • All rights reserved.</footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
