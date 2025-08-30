@@ -1,0 +1,58 @@
+:root{
+  /* Islamic-inspired palette */
+  --brand:#0F6D44;   /* Emerald */
+  --accent:#D4AF37;  /* Gold */
+  --dark:#0B1F1A;    /* Deep green/black */
+  --light:#F6FBF8;   /* Mint-ivory background */
+  --white:#FFFFFF;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--light);
+  color:var(--dark);
+  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:1080px;margin:0 auto;padding:32px 18px}
+.header{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.logo{font-family:Poppins,Inter,Arial,sans-serif;font-weight:700;font-size:20px;color:var(--brand)}
+.nav a{margin-left:14px}
+
+.hero{
+  position:relative; overflow:hidden; border-radius:20px; padding:48px 28px;
+  background:
+    radial-gradient(1200px 500px at -20% -10%, rgba(15,109,68,.10), transparent 60%),
+    radial-gradient(800px 400px at 110% 10%, rgba(212,175,55,.10), transparent 60%),
+    var(--white);
+  box-shadow:0 10px 28px rgba(0,0,0,.08);
+}
+.hero h1{
+  margin:0 0 10px; font-family:Poppins,Inter,Arial,sans-serif; font-size:34px; line-height:1.15; color:var(--brand);
+}
+.hero p.lead{font-size:1.15rem; margin:8px 0 18px}
+
+.badge{
+  display:inline-block; padding:10px 14px; border-radius:10px;
+  background:rgba(15,109,68,.08); margin-top:6px;
+}
+
+.actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
+.btn,.btn-ghost{
+  display:inline-block; font-weight:600; border-radius:12px; padding:12px 16px; text-decoration:none
+}
+.btn{background:var(--accent); color:#1B1B1B}
+.btn-ghost{border:2px solid var(--brand); color:var(--brand); background:transparent}
+
+.footer{margin:36px 0 18px; text-align:center; font-size:.95rem; opacity:.9}
+
+.grid{display:grid; gap:16px}
+.grid.three{grid-template-columns:1fr}
+@media(min-width:820px){ .grid.three{grid-template-columns:1fr 1fr 1fr} }
+
+.card{background:var(--white); border-radius:16px; padding:22px; box-shadow:0 6px 20px rgba(0,0,0,.06)}
+.small{font-size:.92rem} .muted{opacity:.75}
