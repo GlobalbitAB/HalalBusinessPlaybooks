@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Halal Verify mark">
+  <!-- Emerald circle -->
+  <circle cx="128" cy="128" r="108" fill="#0F6D44"/>
+  <!-- Gold crescent (mask technique) -->
   <defs>
-    <style>
-      .bg { fill: #1C7C7D; }
-      .txt { font: 700 220px 'Poppins', 'Inter', 'DejaVu Sans', Arial, sans-serif; fill: #FFFFFF; }
-    </style>
+    <mask id="cut">
+      <rect x="0" y="0" width="256" height="256" fill="white"/>
+      <circle cx="132" cy="128" r="72" fill="black"/>
+    </mask>
   </defs>
-  <rect width="512" height="512" rx="64" class="bg"/>
-  <text x="85" y="335" class="txt">HV</text>
-  <circle cx="440" cy="88" r="22" fill="#F4B400"/>
+  <circle cx="110" cy="128" r="88" fill="#D4AF37" mask="url(#cut)"/>
+  <!-- Gold check -->
+  <path d="M94 138 L124 168 L180 108" stroke="#D4AF37" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
